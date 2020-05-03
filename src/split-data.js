@@ -1,6 +1,9 @@
 function splitData(data, sliceLength) {
     // console.log("--------------------------");
     // console.log("--------splitData---------");
+    if(!sliceLength){
+        return [data];
+    }
     const numberOfSlices = Math.ceil(data.length / sliceLength);
     let slicedArray = [];
     for (let counter = 0; counter < numberOfSlices; counter++) {

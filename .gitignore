@@ -3,3 +3,5 @@ input/*.csv
 output/*.csv
 yarn-error.log
 package-lock.json
+input/.DS_Store
+.DS_Store

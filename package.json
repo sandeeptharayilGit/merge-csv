@@ -6,6 +6,7 @@
   "scripts": {
     "merge": "babel-node index.js",
     "start": "nodemon --exec babel-node index.js",
+    "cleanup": "babel-node cleanup.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
