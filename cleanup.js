@@ -39,4 +39,4 @@ async function cleanUpCSV(fileNameList) {
 console.time("Total Processing time");
 
 
-cleanUpCSV([ "HotelDetails_feb.csv" ])
+cleanUpCSV([ "HotelDetails.csv" ])
