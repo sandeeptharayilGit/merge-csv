@@ -4,9 +4,9 @@ console.time("Total Processing time");
 
 /*keep these files inside input folder*/
 const fileNames = [
-    "BillingDetail_NEW.csv",
-    "BillingDetail_NEW_2.csv",
-    "BillingDetail_NEW_3.csv" ];
+    "BillingDetail_NEW_Fixed_1.csv",
+    "BillingDetail_NEW (1).csv",
+    "BillingDetail_NEW (2).csv" ];
 
 /** 
  * if you want to split the merged csv files
